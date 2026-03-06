@@ -25,7 +25,7 @@ class JenkinsDemoAppApplicationTests {
 					.andExpect(status().isOk())
 					.andExpect(content().string(
 							"Hello" + name + "Congrats you have successfully completed jenkins demo"
-					));echo "# jenkins-ci-cd" >> README.md
+					));
 	}
 
 }
